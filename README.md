@@ -1,5 +1,5 @@
 Screenshots
-
+<.Screenshots { font-size: 20;}>
 <img src="http://i.imgur.com/MqVALdz.jpg"/>
 <img src="http://i.imgur.com/AokpXyq.jpg"/>
 Unread messages(es) animation
