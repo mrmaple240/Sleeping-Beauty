@@ -1,5 +1,9 @@
 Screenshots
-<p {font-size: 20;}>
+<
+.gist class="Screenshots"{
+    font-size: 12px;
+}
+>
 
 
 <img src="http://i.imgur.com/MqVALdz.jpg"/>
