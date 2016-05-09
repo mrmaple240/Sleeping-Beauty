@@ -1,6 +1,6 @@
 Screenshots
 
-< .gist [class="Screenshots"{font-size: 12px;}] >
+< .gist [class="Screenshots"] { font-size: 12px;} >
 
 
 <img src="http://i.imgur.com/MqVALdz.jpg"/>
