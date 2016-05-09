@@ -1,5 +1,5 @@
 Screenshots
-<p Screenshots{ font-size: 20;}>
+<p {font-size: 20;}>
 
 
 <img src="http://i.imgur.com/MqVALdz.jpg"/>
