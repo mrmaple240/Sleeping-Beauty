@@ -1,6 +1,6 @@
 Screenshots
 
-<css [class="Screenshots"] { font-size: 12px;} />
+<css element { font-size: 22px;} />
 
 
 <img src="http://i.imgur.com/MqVALdz.jpg"/>
