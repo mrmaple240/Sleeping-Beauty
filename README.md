@@ -1,6 +1,6 @@
 Screenshots
 
-<css .gist { font-size: 12px;} />
+<css [class="Screenshots"] { font-size: 12px;} />
 
 
 <img src="http://i.imgur.com/MqVALdz.jpg"/>
