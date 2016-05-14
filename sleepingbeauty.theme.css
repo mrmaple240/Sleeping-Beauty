@@ -85,9 +85,13 @@ strong {
     padding-left: 2px;
 }
 
-
 #user-profile-modal .scroller {
    background: #fff;
+}
+
+.private-channels .channel a .badge {
+    position: relative;
+    right: 5px;
 }
 
 /*Guild area*/
