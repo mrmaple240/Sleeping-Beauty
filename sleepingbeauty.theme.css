@@ -617,19 +617,24 @@ div.channel.selected.private {
 .radio-inner, .streamer-mode-enabled {
     background: rgba(240,240,240,0.4) !important;
 }
+
 .Select-value {
     background: rgb(20,240,240) !important;
 }
+
 .settings .settings-actions {
     border-top: none !important;
     background: rgba(100,100,110,.7) !important;
 }
+
 .settings-section.control-groups {
     background-color: rgba(240,240,240,0.4);
 }
+
 .notification-settings-modal-channel-settings-header {
     background-color: rgba(240,240,240,0.3);
 }
+
 .form-header,
 .form-inner,
 .form-actions {
