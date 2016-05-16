@@ -1,4 +1,4 @@
-//META{"name":"Sleeping_Beauty","description":"Pretty much an edit of nova but with a couple more things Keepo","author":"Maple","version":"1.00"}*//
+//META{"name":"Sleeping_Beauty","description":"Pretty much an edit of nova but with a couple more things Keepo","author":"Maple","version":"1.10"}*//
 
 /* Background */
 .app {
@@ -562,4 +562,80 @@ div.channel.selected.private {
     text-overflow: clip;
     font-size: 19px;
     word-wrap: break-word;
+}
+
+/*mini popout profile thing*/
+.user-popout .header {
+    background: rgba(114,137,218,0.8);
+}
+
+.user-popout .body, .user-popout .footer {
+    background: rgba(255,255,255,0.8);
+    border-top: none;
+}
+
+/*backdrop*/
+.callout-backdrop{
+    background: url(https://i.imgur.com/3BmiR08.jpg) !important;
+    background-size: 127.7% !important;
+    opacity: .92 !important;
+    background-position: center !important;
+    animation: fadein 1s;
+}
+
+@keyframes fadein{
+    0% {opacity: 0;
+    background-size: 128% !important;}
+    9% {opacity: 0.01;}
+    35% {opacity: 0.84;}
+    60% {opacity: 0.87;}
+    72% {opacity: 0.89;}
+    89% {opacity: 0.90;
+    background-size: 127.7% !important;}
+    100% {opacity: 0.91;}
+}
+
+/* settings */
+.tab-bar.SIDE {
+    margin-right: -17px;
+    background-color: rgba(60,60,75,.6)
+}
+
+.user-settings-modal-games {
+    background-color: rgba(255,255,255,.8);
+}
+
+.now-playing {
+    background-color: rgba(114,137,218,0.8);
+}
+
+.settings .settings-header, 
+.settings .settings-inner, 
+.scroller.settings-wrapper.settings-panel, 
+.bd-customcss-innerpane, 
+.voice-settings, 
+.radio-inner, .streamer-mode-enabled {
+    background: rgba(240,240,240,0.4) !important;
+}
+.Select-value {
+    background: rgb(20,240,240) !important;
+}
+.settings .settings-actions {
+    border-top: none !important;
+    background: rgba(100,100,110,.7) !important;
+}
+.settings-section.control-groups {
+    background-color: rgba(240,240,240,0.4);
+}
+.notification-settings-modal-channel-settings-header {
+    background-color: rgba(240,240,240,0.3);
+}
+.form-header,
+.form-inner,
+.form-actions {
+    background: rgba(240,240,240,0.74) !important;
+}
+
+.btn-confirm {
+    background-color: rgba(230,20,20,0.2);
 }
