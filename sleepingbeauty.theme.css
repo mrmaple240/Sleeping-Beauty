@@ -1,4 +1,4 @@
-//META{"name":"Sleeping_Beauty","description":"A soft little theme for Disney fans!","author":"Maple","version":"1.14"}*//
+//META{"name":"Sleeping_Beauty","description":"A soft little theme for Disney fans!","author":"Maple","version":"1.15"}*//
 
 /* Background */
 .app {
@@ -107,7 +107,7 @@ strong {
     margin-left: 1px;
 }
 
-.guilds-wrapper .guilds .guild+guild {
+.guilds-wrapper .guilds .guild+.guild {
     margin-top: 12px;
 }
 
