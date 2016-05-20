@@ -1,4 +1,4 @@
-//META{"name":"Sleeping_Beauty","description":"A soft little theme for Disney fans!","author":"Maple","version":"1.10"}*//
+//META{"name":"Sleeping_Beauty","description":"A soft little theme for Disney fans!","author":"Maple","version":"1.14"}*//
 
 /* Background */
 .app {
@@ -103,15 +103,15 @@ strong {
     background: rgba(20,23,27,.58);
 }
 
-.guilds li {
+.guilds-wrapper .guilds .guild {
     margin-left: 1px;
 }
 
-.guilds li+li {
+.guilds-wrapper .guilds .guild+guild {
     margin-top: 12px;
 }
 
-.guilds li .guild-inner {
+.guilds-wrapper .guilds .guild .guild-inner {
     background: rgb(157,154,160) !important;
     border-radius: 99px !important;
 }
@@ -141,19 +141,19 @@ strong {
     }
 }
 
-.guilds li .avatar-small {
+.guilds-wrapper .guilds .guild .avatar-small {
     width: 50px;
     height: 50px;
     background-size: 52px 52px;
     border-radius: 99px !important;
 }
 
-.guilds .friends-online {
+.guild .friends-online {
     color: hsla(0,0%,100%,.56);
 }
 
 /*Selected guild & unread messages*/
-.guilds li.unread .guild-inner:before {
+.guilds-wrapper .guilds .guild.unread:before {
     background-color: rgba(235,232,218,.5);
     width: 59px;
     height: 59px;
@@ -173,7 +173,7 @@ strong {
     top: 5px;
 }
 
-.guilds li.active .guild-inner:before {
+.guilds-wrapper .guilds .guild.selected:before {
     background-color: rgba(235,232,218,.5);
     width: 59px;
     height: 59px;
@@ -183,12 +183,12 @@ strong {
     border-radius: 99px !important;
 }
 
-.guilds li.active .guild-inner, .guilds li:hover .guild-inner {
+.guilds-wrapper .guilds .guild.selected {
     background: #738bd7;
     border-radius: 99px !important;
 }
 
-.guilds li.unread .guild-inner:before {
+.guilds-wrapper .guilds .guild.unread:before {
     animation: fade 3s infinite;
 }
 
