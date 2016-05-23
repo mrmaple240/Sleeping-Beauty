@@ -1,4 +1,4 @@
-//META{"name":"Sleeping_Beauty","description":"A soft little theme for Disney fans!","author":"Maple","version":"1.15"}*//
+//META{"name":"Sleeping_Beauty","description":"A soft little theme for Disney fans!","author":"Maple","version":"1.17"}*//
 
 /* Background */
 .app {
@@ -239,39 +239,29 @@ text-shadow: 1px 1px #3E3E3E;
 }
 
 /*Channel area*/
-.channel:not(.selected) {
-    transition: background .3s ease-out;
-}
-
-.channel:not(.selected):hover {
+.guild-channels .channel-text.selected {
     background: rgba(235,232,218,.45);
 }
 
-.guild-channels ul .channel:not(.selected):before,
-.guild-channels ul .channel.selected:before,
-.guild-channels ul .channel.selected:hover:before,
-.private-channels .channel:not(.selected):before,
-.private-channels .channel.selected:before,
-.private-channels .channel.selected:hover:before {
-    border-left: 5px #edeff8;
+.channel:not(.selected):hover {
+    background: rgba(235,232,218,.4);
 }
 
-li.channel.channel-text:hover {
-    background: rgba(235,232,218,.25);
+.channel:not(.selected):hover.channel:not(.selected):hover a, 
+.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):hover, 
+.guild-channels .channel-text.unread:not(.selected) .channel-name:hover {
+    opacity: 1;
+    color: #fff;
 }
 
-li.channel.channel-text.selected,
-div.channel.selected.private {
-    background: rgba(235,232,218,.3);
+.guild-channels .channel-text.unread:not(.selected) .channel-name {
+    opacity: .5;
 }
 
-.guild-channels header h2 {
-    opacity: .78;
+.guild-channels .channel a {
+    opacity: .65;
 }
 
-.guild-channels ul .channel a {
-    opacity: .7;
-}
 
 /*Voice panel*/
 #voice-connection {
