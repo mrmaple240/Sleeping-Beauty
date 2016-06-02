@@ -1,4 +1,4 @@
-//META{"name":"Sleeping_Beauty","description":"A soft little theme for Disney fans!","author":"Maple","version":"1.21"}*//
+//META{"name":"Sleeping_Beauty","description":"A soft little theme for Disney fans!","author":"Maple","version":"1.23"}*//
 
 /* Background */
 .app {
@@ -162,7 +162,7 @@ strong {
     border-radius: 99px !important;
 }
 
-.guild-channels ul .channel-text.unread:not(.selected):not(.channel-muted):before {
+.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
     content: ' ';
     width: 12px;
     height: 25px;
@@ -216,9 +216,6 @@ strong {
 /*Guild settings*/
 .guild-header ul {
     opacity: 0;
-    transition: transform .5s cubic-bezier(0.18,0.89,0.32,1.28);
-    background: #9D9AA0;
-    border: 1px solid #CDCDCD;
 }
 
 .guild-header ul a, .guild-header ul a.red-highlight {
