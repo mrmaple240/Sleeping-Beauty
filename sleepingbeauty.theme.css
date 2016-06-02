@@ -216,6 +216,9 @@ strong {
 /*Guild settings*/
 .guild-header ul {
     opacity: 0;
+    transition: transform .5s cubic-bezier(0.18,0.89,0.32,1.28);
+    background: #9D9AA0;
+    border: 1px solid #CDCDCD;
 }
 
 .guild-header ul a, .guild-header ul a.red-highlight {
