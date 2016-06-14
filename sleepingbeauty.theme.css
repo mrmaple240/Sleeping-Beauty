@@ -1,4 +1,4 @@
-//META{"name":"Sleeping_Beauty","description":"A soft little theme for Disney fans!","author":"Maple","version":"1.23"}*//{}
+//META{"name":"Sleeping_Beauty","description":"A soft little theme for Disney fans!","author":"Maple","version":"1.27"}*//{}
 
 /* Background */
 .app {
@@ -637,4 +637,13 @@ text-shadow: 1px 1px #3E3E3E;
 
 .btn-confirm {
     background-color: rgba(230,20,20,0.2);
+}
+
+/* buttons */
+
+.form .btn-default {
+    padding: 10px 0;
+    width: 75px;
+    height: 35.5px;
+    border-radius: 3px;
 }
