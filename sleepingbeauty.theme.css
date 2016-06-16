@@ -1,4 +1,4 @@
-//META{"name":"Sleeping_Beauty","description":"A soft little theme for Disney fans!","author":"Maple","version":"1.27"}*//{}
+//META{"name":"Sleeping_Beauty","description":"A soft little theme for Disney fans!","author":"Maple","version":"1.28"}*//{}
 
 /* Background */
 .app {
@@ -573,6 +573,7 @@ text-shadow: 1px 1px #3E3E3E;
     background: url(https://i.imgur.com/3BmiR08.jpg) !important;
     background-size: 127.7% !important;
     opacity: .92 !important;
+    -webkit-filter: brightness(96%);
     background-position: center !important;
     animation: fadein 1s;
 }
