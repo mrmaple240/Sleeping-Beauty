@@ -1,4 +1,4 @@
-//META{"name":"Sleeping_Beauty","description":"A soft little theme for Disney fans!","author":"Maple","version":"1.28"}*//{}
+//META{"name":"Sleeping_Beauty","description":"A soft little theme for Disney fans!","author":"Maple","version":"1.30"}*//{}
 
 /* Background */
 .app {
@@ -286,8 +286,8 @@ text-shadow: 1px 1px #3E3E3E;
 
 #voice-connection .btn-group,
 .account .btn-group {
-    box-shadow: .75px 1.5px 1px #14171b;
-    border: none;
+    box-shadow: none;
+    border: 1px rgba(10,10,10,.9);
 }
 
 /*User settings*/
@@ -341,7 +341,8 @@ text-shadow: 1px 1px #3E3E3E;
 }
 
 .message-group {
-    padding: 10px 0;
+    padding: 10px 20px;
+    margin-left: 5px;
 }
 
 .message-group .avatar-large {
@@ -423,11 +424,11 @@ text-shadow: 1px 1px #3E3E3E;
 }
 
 /*Code blocks*/
-.chat .markup code {
+.markup code {
     background: rgba(0,0,0,0.3) !important;
 }
 
-.chat .markup pre {
+.markup pre {
     background: none !important;
     border: 1px solid rgba(0,0,0,0.34) !important;
 }
@@ -537,7 +538,7 @@ text-shadow: 1px 1px #3E3E3E;
 .header-toolbar {
     z-index: 1;
     position: absolute;
-    right: 50px;
+    right: 30px;
 }
 
 /*embed*/
@@ -647,4 +648,22 @@ text-shadow: 1px 1px #3E3E3E;
     width: 75px;
     height: 35.5px;
     border-radius: 3px;
+}
+
+/* pinned messages */
+
+.channel-pins-wrap {
+    background-color: transparent !important;
+}
+
+.channel-pins-wrap .header, .channel-pins-wrap .footer  {
+    background-color: rgba(20,20,20,.8) !important;
+}
+
+.channel-pins {
+    background-color: rgba(30,30,30,.85);
+}
+
+.channel-pins-wrap .channel-pins .message-group {
+    background-color: rgba(200,250,250,.08) !important;
 }
