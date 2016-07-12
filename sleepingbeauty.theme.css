@@ -1,4 +1,4 @@
-//META{"name":"Sleeping_Beauty","description":"A soft little theme for Disney fans!","author":"Maple","version":"1.31"}*//{}
+//META{"name":"Sleeping_Beauty","description":"A soft little theme for Disney fans!","author":"Maple","version":"1.33"}*//{}
 
 /* Background */
 .app {
@@ -652,23 +652,19 @@ text-shadow: 1px 1px #3E3E3E;
 
 /* pinned messages */
 
-.channel-pins-wrap {
-    background-color: transparent !important;
-}
-
-.channel-pins-wrap .header, .channel-pins-wrap .footer  {
+.messages-popout-wrap .header, .messages-popout-wrap .footer  {
     background-color: rgba(20,20,20,.8) !important;
 }
 
-.channel-pins {
-    background-color: rgba(30,30,30,.85);
+.messages-popout-wrap {
+    background-color: rgba(30,30,30,.85) !important;
 }
 
-.channel-pins-wrap .channel-pins .message-group {
+.messages-popout-wrap .message-group {
     background-color: rgba(200,250,250,.08) !important;
 }
 
 .message-group:hover .action-buttons {
-    box-shadow: 0 0 6px 0px rgba(37,172,232,.13);
-    background-color: rgba(37,172,232,.13);
+    box-shadow: 0 0 6px 0px rgba(37,172,232,.13) !important;
+    background-color: rgba(37,172,232,.13) !important;
 }
