@@ -1,4 +1,4 @@
-//META{"name":"Sleeping_Beauty","description":"A soft little theme for Disney fans!","author":"Maple","version":"1.39"}*//{}
+//META{"name":"Sleeping_Beauty","description":"A soft little theme for Disney fans!","author":"Maple","version":"1.40"}*//{}
 
 /* Background */
 .app {
@@ -10,7 +10,7 @@
 /*Transparency*/
 #voice-connection, #friends, .friends-table, .private-channels .channel.selected, .search-bar, .guilds-wrapper, .channels-wrap, .guild-channels, .account, .links, 
 
-.chat, .title-wrap, .content, .chat-empty, .private-channels, .guild-header header, .typing, .messages-wrapper, .divider-red span, .channel-members {
+.title-wrap, .content, .chat-empty, .private-channels, .guild-header header, .typing, .messages-wrapper, .divider-red span, .channel-members.title-wrap, .chat>.content, {
     background: transparent !important;
 }
 
@@ -665,7 +665,7 @@ text-shadow: 1px 1px #3E3E3E;
 
 /*I give up on keeping this clean*/
 
-.channels-wrap, .title-wrap, .chat>.content, #friends {
+.channels-wrap,  #friends {
     background: rgba(40,40,50,.2) !important;
 }
 .guilds-wrapper {
@@ -676,4 +676,12 @@ text-shadow: 1px 1px #3E3E3E;
 }
 .search-bar, .chat .title-wrap {
     box-shadow: none !important;
+}
+.private-channel-call {
+    margin-bottom: -20px;
+    border-top-left-radius: 26px;
+    z-index: 1;
+}
+.chat {
+    background-color: rgba(40,40,50,.2) !important;
 }
