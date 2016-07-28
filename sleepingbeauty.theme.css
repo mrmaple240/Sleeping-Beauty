@@ -10,7 +10,7 @@
 /*Transparency*/
 #voice-connection, #friends, .friends-table, .private-channels .channel.selected, .search-bar, .guilds-wrapper, .channels-wrap, .guild-channels, .account, .links, 
 
-.title-wrap, .content, .chat-empty, .private-channels, .guild-header header, .typing, .messages-wrapper, .divider-red span, .channel-members.title-wrap, .chat>.content, {
+.title-wrap, .content, .chat-empty, .private-channels, .guild-header header, .typing, .messages-wrapper, .divider-red span, .channel-members.title-wrap, .chat>.content {
     background: transparent !important;
 }
 
