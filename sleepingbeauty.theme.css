@@ -1,4 +1,4 @@
-//META{"name":"Sleeping_Beauty","description":"A soft little theme for Disney fans!","author":"Maple","version":"1.38"}*//{}
+//META{"name":"Sleeping_Beauty","description":"A soft little theme for Disney fans!","author":"Maple","version":"1.39"}*//{}
 
 /* Background */
 .app {
@@ -675,5 +675,5 @@ text-shadow: 1px 1px #3E3E3E;
     text-shadow: 1px 1.35px 1.5px rgba(0,0,8,.5);
 }
 .search-bar, .chat .title-wrap {
-    box-shadow: none;
+    box-shadow: none !important;
 }
