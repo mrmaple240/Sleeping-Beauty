@@ -1,4 +1,4 @@
-//META{"name":"Sleeping_Beauty","description":"A soft little theme for Disney fans!","author":"Maple","version":"1.34"}*//{}
+//META{"name":"Sleeping_Beauty","description":"A soft little theme for Disney fans!","author":"Maple","version":"1.38"}*//{}
 
 /* Background */
 .app {
@@ -8,7 +8,9 @@
 }
 
 /*Transparency*/
-#voice-connection, #friends, .friends-table, .private-channels .channel.selected, .search-bar, .guilds-wrapper, .channels-wrap, .guild-channels, .account, .links, .chat, .title-wrap, .content, .chat-empty, .private-channels, .guild-header header, .typing, .messages-wrapper, .divider-red span, .channel-members {
+#voice-connection, #friends, .friends-table, .private-channels .channel.selected, .search-bar, .guilds-wrapper, .channels-wrap, .guild-channels, .account, .links, 
+
+.chat, .title-wrap, .content, .chat-empty, .private-channels, .guild-header header, .typing, .messages-wrapper, .divider-red span, .channel-members {
     background: transparent !important;
 }
 
@@ -17,7 +19,9 @@
 }
 
 /*unneeded*/
-.links, #friends .friends-table .friends-table-header .friends-column-separator, #friends .friends-column-separator, .app button[data-reactid=".0.1.1.0.2.0.2.3"],  .header-toolbar button:last-of-type {
+.links, #friends .friends-table .friends-table-header .friends-column-separator, #friends .friends-column-separator, .app button[data-reactid=".0.1.1.0.2.0.2.3"],  
+
+.header-toolbar button:last-of-type {
     display: none;
 }
 
@@ -37,7 +41,9 @@
     background-color: rgba(235,232,218,.5) !important;
 }
 
-#friends .friends-empty.section-online .empty-state-image, #friends .friends-empty.section-pending .empty-state-image, #friends .friends-empty.section-blocked .empty-state-image, #friends .friends-empty.section-all .empty-state-image {
+#friends .friends-empty.section-online .empty-state-image, #friends .friends-empty.section-pending .empty-state-image, #friends .friends-empty.section-blocked 
+
+.empty-state-image, #friends .friends-empty.section-all .empty-state-image {
     opacity: .85;
 }
 
@@ -52,12 +58,6 @@
     margin-right: 72px;
 }
 
-#friends .friends-table .friends-row .friends-column+.friends-column {
-   margin-left: 250px;
-}
-
-
-
 #friends .friends-table .friends-row:hover {
     padding-left: 15px;
     margin-right: 72px;
@@ -66,16 +66,6 @@
 
 #friends .friends-table .friends-row .friends-column-name, #friends .friends-table .friends-row .friends-column-status {
     color: #edeff8;
-}
-
-#friends .friends-table .friends-table-header .friends-column {
-    position: relative;
-    padding-right: 245px;
-}
-
-#friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-red {
-    position: relative;
-    right: 100px;
 }
 
 strong {
@@ -671,4 +661,19 @@ text-shadow: 1px 1px #3E3E3E;
 
 .private-channels .search-result.selected, .private-channels .search-result:hover {
     background: rgba(235,232,218,.45) !important;
+}
+
+/*I give up on keeping this clean*/
+
+.channels-wrap, .title-wrap, .chat>.content, #friends {
+    background: rgba(40,40,50,.2) !important;
+}
+.guilds-wrapper {
+    background: rgba(20,20,20,.58) !important;
+}
+.guild-channels * {
+    text-shadow: 1px 1.35px 1.5px rgba(0,0,8,.5);
+}
+.search-bar, .chat .title-wrap {
+    box-shadow: none;
 }
